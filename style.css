@@ -1,0 +1,115 @@
+.codeinputs .codeinput input,
+.font1,
+body {
+    font-family: Staatliches, helvetica, sans-serif
+}
+
+#app,
+#map,
+#map-bg-crumble,
+.popup-dimmer {
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#app,
+#map,
+#map-bg-crumble,
+.popup-dimmer,
+img {
+    width: 100%
+}
+
+.infobox-dim,
+.popup-dimmer {
+    top: 0;
+    -webkit-animation: .8s a44562 cubic-bezier(.19, 1, .22, 1)
+}
+
+#clouds,
+body[data-zoom="8"] #clouds,
+body[data-zoom="9"] #clouds {
+    opacity: .7
+}
+
+.font1,
+body {
+    font-size: 20px
+}
+
+#questlist-modal .quests .quest .description,
+.contentblocks .block-text p,
+.font2,
+.modal-popup .inner,
+.quest-sidemenu .description {
+    font-family: Neucha, helvetica, sans-serif
+}
+
+.contentblocks .block-text p,
+.font2,
+.quest-sidemenu .description {
+    font-size: 55px
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body,
+html {
+    height: 100%;
+    height: 100vh
+}
+
+body {
+    background-color: #FFFEFE
+}
+
+a {
+    color: inherit
+}
+
+#app {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    overflow: hidden
+}
+
+#map,
+#map-bg-crumble,
+.popup,
+.popup-dimmer {
+    position: absolute
+}
+
+#map {
+    top: 0;
+    background: #d9dfe3
+}
+
+#map-bg-crumble {
+    top: 0;
+    pointer-events: none;
+    background-image: url();
+    background-size: 700px auto;
+    background-position: center center;
+    z-index: 555555;
+    opacity: .3
+}
+
+img {
+    display: block;
+    height: auto
+}
+
+.popup-dimmer {
+    background: rgba(0, 0, 0, .2);
+    display: none;
+    z-index: 9999999556;
+    animation: .8s a44562 cubic-bezier(.19, 1, .22, 1)
+}
